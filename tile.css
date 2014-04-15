@@ -1,0 +1,77 @@
+
+body {
+	background: "Background.jpg" bottom no-repeat;
+	background-color:58169a;
+}
+
+
+h2.start {
+	color:white;
+	text-align: center;
+	font-size:3em;
+
+}
+footer {
+	color:white;
+	text-align: center;
+	font-size:3em;
+
+}
+
+
+.credits {
+	color:white;
+	text-align:right;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+
+.metro-surface{
+	padding: 20px 0px 0px 0px;
+}
+
+
+.metro-tile {
+	background-color: #D8512B;
+	border-color: #DC6241;
+	width: 432px;
+	height: 234px;
+	padding: 5px;
+	color: #FFF;
+  padding-right:5px;
+	font-family: sans-serif;
+	font-size: 12px;
+	border-width: 3px;
+	border-style: solid;
+	cursor: default;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-ms-transition: 0.1s all;
+	transition: 0.1s all;
+}
+
+
+.metro-tile-small {
+	width: 104px;
+	height: 104px;
+}
+
+
+
+
+.metro-tile-image {
+	 	background-color: #77B900; 
+	border-color:  	#2E8DEF;
+}
+
+
+
+div.metro-tile:hover {
+	-webkit-transform: scale(0.90) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-moz-transform: scale(0.90) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-ms-transform: scale(0.90) perspective(400px) rotateY(0deg) rotateX(0deg);
+	transform: scale(0.90) perspective(400px) rotateY(0deg) rotateX(0deg);
+	border-width: 3px;
+	border-style:solid; 
+}
